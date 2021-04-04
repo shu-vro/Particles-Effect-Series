@@ -70,11 +70,6 @@ class Eye {
         ctx.fillStyle = "gold";
         ctx.fill();
     }
-    update() {
-        // this.x = mouse.x;
-        // this.y = mouse.y;
-        this.draw();
-    }
 }
 
 function init() {
@@ -106,7 +101,7 @@ function animate() {
     ctx.fillStyle = `rgba(0, 0, 0, .25)`;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     eyes.forEach((eye) => {
-        eye.update();
+        eye.draw();
     });
 }
 
