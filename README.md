@@ -27,7 +27,7 @@ The Canvas API largely focuses on 2D graphics. The WebGL API, which also uses th
 
 ---
 
-Here, we are going to learn very basics of canvas element. We are going to make some floating particles that we are going to animate to make cool animations, background and games too.
+Here, we are going to learn very basics of canvas element. We are going to make some floating particles that we are going to animate to make cool animations, background and games too. We are going to understand some basic math functions and their usages in coding. These tutorials are going to be user friendly and you can use them anywhere if you want to impress your friends, or use them in your website.
 
 ## Some Common Code
 
