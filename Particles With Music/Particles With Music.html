@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="theme-color" content="rgba(75, 0, 130, 1)" />
+        <meta name="keywords" content="Document" />
+        <meta name="description" content="Your Description..." />
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            img {
+                position: absolute;
+                z-index: -100;
+                opacity: 0;
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            audio {
+                position: absolute;
+                bottom: 0%;
+                left: 50%;
+                transform: translate(-50%, 0%);
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    <body>
+        <canvas></canvas>
+        <img src="download.jpg" />
+        <audio controls autoplay>
+            <source src="music.mp3" />
+            Your browser does not support the audio element.
+        </audio>
+        <script src="script.js"></script>
+    </body>
+</html>
